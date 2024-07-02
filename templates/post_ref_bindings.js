@@ -1,4 +1,4 @@
-var ffi = require('ffi-napi');
+var ffi = require('@makeomatic/ffi-napi');
 var Z3 = ffi.Library(libPath, GeneratedBindings);
 
 /**
