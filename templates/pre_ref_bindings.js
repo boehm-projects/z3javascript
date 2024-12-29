@@ -38,6 +38,7 @@ var SolverObj = Voidp;
 var FixedpointObj = Voidp;
 var ModelObj = Voidp;
 var AstVectorObj = Voidp;
+var ParserContextObj = Voidp;
 var AstMapObj = Voidp;
 var Params = Voidp;
 var ParamDescrs = Voidp;
@@ -45,6 +46,7 @@ var FuncInterpObj = Voidp;
 var FuncEntryObj = Voidp;
 var RCFNumObj = Voidp;
 var SolverCallbackObj = Voidp;
+var SimplifierObj = Voidp;
 
 // Names for standard types
 var CUInt = ref.types.uint32;
